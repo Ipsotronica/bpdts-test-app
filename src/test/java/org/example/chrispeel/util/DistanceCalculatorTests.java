@@ -2,12 +2,11 @@ package org.example.chrispeel.util;
 
 import org.junit.jupiter.api.Test;
 
+import static org.example.chrispeel.util.GlobalConstants.LONDON_LAT;
+import static org.example.chrispeel.util.GlobalConstants.LONDON_LONG;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DistanceCalculatorTests {
-    //London 51.5074° N, 0.1278° W
-    private static final double LONDON_LAT = 51.5074;
-    private static final double LONDON_LONG = -0.1278;
 
     @Test
     public void testDistanceToMaidstone() {
